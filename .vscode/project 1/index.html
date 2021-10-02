@@ -25,17 +25,46 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-           
+
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" id="searchtxt" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 
+    <div class="container my-3 center">
 
+        <h1>Here my Notes</h1>
+
+
+        <div class="card" style="width: 48rem;">
+
+            <div class="card-body bg-dark text-light">
+                <h5 class="card-title">Add a note</h5>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                </div>
+                <button id="addbtn" class="btn btn-danger">Add note</button>
+            </div>
+        </div>
+
+        <br>
+
+        <h1>Your notes</h1>
+
+
+        <hr>
+<div id="notes" class="row container-fluid">
+   
+
+
+</div>
+
+    </div>
 
 
 
