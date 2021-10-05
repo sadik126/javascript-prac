@@ -95,23 +95,22 @@ function deleteNote(index) {
 }
 
 
-let search =document.getElementById("searchtxt");
-search.addEventListener("input",function(){
-let inputval = search.value.toLowerCase(); 
-//console.log("input fired",inputval);
-let notecards = document.getElementsByClassName('notecard');
-Array.from(notecards).forEach(function(element){
+let search = document.getElementById("searchtxt");
+search.addEventListener("input", function () {
+    let inputval = search.value.toLowerCase();
+    //console.log("input fired",inputval);
+    let notecards = document.getElementsByClassName('notecard');
+    Array.from(notecards).forEach(function (element) {
 
 
-    let cardtxt = element.getElementsByTagName("p")[0].innerText;
-    if(cardtxt.includes(inputval)){
-        element.style.display = "block";
-    }
-    else
-    {
-        element.style.display = "none";
-    }
-})
+        let cardtxt = element.getElementsByTagName("p")[0].innerText;
+        if (cardtxt.includes(inputval)) {
+            element.style.display = "block";
+        }
+        else {
+            element.style.display = "none";
+        }
+    })
 
 
 })
