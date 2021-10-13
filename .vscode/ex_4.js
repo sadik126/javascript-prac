@@ -16,7 +16,7 @@ this.booklist.forEach(element => {
 }
 
 issuebook(bookname,user){
-
+this.issuedbook.push([bookname,user])
 }
 
 returnbook(bookname){
