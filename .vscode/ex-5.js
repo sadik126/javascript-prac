@@ -180,4 +180,13 @@ const json = `{
 
 
     console.log("someone clicked this");
+    populate();
   })
+function populate(){
+
+    let results = myobj['results'];
+    let html = "";
+    results.forEach(element => {
+       
+    });
+}
