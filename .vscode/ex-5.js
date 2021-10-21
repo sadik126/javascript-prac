@@ -187,6 +187,9 @@ function populate(){
     let results = myobj['results'];
     let html = "";
     results.forEach(element => {
-       html += `one of the defination of element is ${element}`
+       html += `<li class="list-group-item list-group-item-dark">one of the defination of element is ${element.definition}</li>`
     });
+
+    let list = document.getElementById('list');
+    list.innerHTML = html;
 }
