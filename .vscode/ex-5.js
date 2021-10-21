@@ -175,7 +175,7 @@ const json = `{
   console.log('results in objects:', myobj['results']);
 
   let meanings = document.getElementById('meanings');
-  meanings.addEventListener=('click',function(){
+  meanings.addEventListener('click',function(){
 
 
 
