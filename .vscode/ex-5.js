@@ -175,3 +175,9 @@ const json = `{
   console.log('results in objects:', myobj['results']);
 
   let meanings = document.getElementById('meanings');
+  meanings.addEventListener=('click',function(){
+
+
+
+    console.log("someone clicked this");
+  })
