@@ -171,4 +171,5 @@ const json = `{
   }`;
 
   const myobj = JSON.parse(json);
-  console.log('the object is: ');
+  console.log('the object is: ',myobj);
+  console.log('results in objects:', myobj['results'])
