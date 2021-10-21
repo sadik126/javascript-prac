@@ -172,4 +172,6 @@ const json = `{
 
   const myobj = JSON.parse(json);
   console.log('the object is: ',myobj);
-  console.log('results in objects:', myobj['results'])
+  console.log('results in objects:', myobj['results']);
+
+  let meanings = document.getElementById('meanings');
